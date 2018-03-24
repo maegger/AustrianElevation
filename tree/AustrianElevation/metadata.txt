@@ -1,0 +1,26 @@
+
+[general]
+name=AustrianElevation
+qgisMinimumVersion=2.14
+description=AustrianElevation
+version=1.0
+author=Yasunori Kirimoto
+email=contact@day-journal.com
+
+about=Display elevation value of specified position on QGIS. Using Austrian Elevation Service by Manfred Egger.  
+
+tracker=https://github.com/dayjournal/AustrianElevation/issues
+repository=https://github.com/dayjournal/AustrianElevation
+
+tags=Elevation,Austria
+
+homepage=https://github.com/dayjournal/AustrianElevation
+category=Plugins
+icon=icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
