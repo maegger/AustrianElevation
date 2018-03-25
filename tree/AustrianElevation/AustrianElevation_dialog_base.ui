@@ -82,7 +82,7 @@
     </font>
    </property>
    <property name="text">
-    <string>http:geoland.at</string>
+    <string>http://geoland.at</string>
    </property>
   </widget>
  </widget>
