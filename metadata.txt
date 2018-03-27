@@ -9,12 +9,12 @@ email=contact@day-journal.com
 
 about=Display elevation value of specified position on QGIS. Using Austrian Elevation Service by Manfred Egger.  
 
-tracker=https://github.com/dayjournal/AustrianElevation/issues
-repository=https://github.com/dayjournal/AustrianElevation
+tracker=https://github.com/maegger/AustrianElevation/issues
+repository=https://github.com/maegger/AustrianElevation
 
 tags=Elevation,Austria
 
-homepage=https://github.com/dayjournal/AustrianElevation
+homepage=https://github.com/maegger/AustrianElevation
 category=Plugins
 icon=icon.png
 

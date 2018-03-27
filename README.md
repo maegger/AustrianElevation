@@ -1,10 +1,10 @@
-# AustrianElevation (Austrian Version of JapanElevation)
+﻿# AustrianElevation (Austrian Version of JapanElevation)
 ![README01](./img/README01.png)
 
 Display elevation value of specified position on QGIS. (QGISv3)  
 Using [Austrian Elevation Service](https://www.egger-gis.at/special-gis-tools/austrian-elevation-service/) by Manfred Egger.  
 
-[QGISv2 Repository](https://github.com/dayjournal/AustrianElevation/tree/QGIS2)  
+[QGISv2 Repository](https://github.com/maegger/AustrianElevation/tree/QGIS2)  
 
 <br/>
 
