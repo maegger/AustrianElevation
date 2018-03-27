@@ -4,7 +4,7 @@
 Display elevation value of specified position on QGIS. (QGISv3)  
 Using [Austrian Elevation Service](https://www.egger-gis.at/special-gis-tools/austrian-elevation-service/) by Manfred Egger.  
 
-[QGISv2 Repository](https://github.com/maegger/AustrianElevation/blob/master/tree/AustrianElevation)  
+[QGISv2 Repository](https://github.com/maegger/AustrianElevation)  
 
 <br/>
 
