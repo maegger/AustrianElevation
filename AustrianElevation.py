@@ -121,16 +121,15 @@ class QgsMapToolClick(QgsMapTool):
         raster_x = int(x - mod_x);
         file = "https://raw.githubusercontent.com/maegger/"+str(database)+"/master/"+str(int(raster_y))+".txt"
         try:
-            ret = urllib.request.urlopen(file)
+            data = urllib.request.urlopen(file)
             self.dlg.label.setText("No Data")
-            if ret.code == 200:
-                data = urllib.request.urlopen(file)
+            if data.code == 200:
                 for line in data:
                     x_wert = line.decode('utf-8').strip().split(' ', 1 )[0]      
                     if str(x_wert) == str(raster_x):
                         elevationall = " " + line.decode('utf-8').strip().split(' ', 1 )[1]
                         elevationtext = ""
-                        self.dlg.label.setText(elevationall + "m")
+                        self.dlg.label.setText(elevationall + " m")
                         break
         except Exception:
             self.dlg.label.setText("No Data")    
